@@ -13,28 +13,28 @@ Dataset Attributes:
 10)Test_indication
 
 # Importing Libraries:
-  a)  Basic libraries 
-import pandas as pd 
-import numpy as np
-  b) Visualisation Libraries
-import seaborn as sns
-import matplotlib.pyplot as plt
-import matplotlib.ticker as ticker
-  c) Datetime Library
-from datetime import datetime
-  d) Sklearn Libraries: For standardize, Encoding, models, PCA, accuracy.
-from sklearn.preprocessing import StandardScaler , Normalizer
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder
-from sklearn.metrics import confusion_matrix,accuracy_score,f1_score
-from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA
-from sklearn import metrics
-import warnings
-warnings.filterwarnings('ignore')
-%matplotlib inline
-  e) Scipy libraries: For statistical inferences
-from scipy.stats import norm  /* statistics */
-from scipy import stats 
+  a)  Basic libraries -
+import pandas as pd -
+import numpy as np -
+  b) Visualisation Libraries -
+import seaborn as sns -
+import matplotlib.pyplot as plt -
+import matplotlib.ticker as ticker - 
+  c) Datetime Library -
+from datetime import datetime - 
+  d) Sklearn Libraries: For standardize, Encoding, models, PCA, accuracy. -
+from sklearn.preprocessing import StandardScaler , Normalizer - 
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder - 
+from sklearn.metrics import confusion_matrix,accuracy_score,f1_score - 
+from sklearn.cluster import KMeans - 
+from sklearn.decomposition import PCA - 
+from sklearn import metrics - 
+import warnings - 
+warnings.filterwarnings('ignore') - 
+%matplotlib inline - 
+  e) Scipy libraries: For statistical inferences - 
+from scipy.stats import norm  /* statistics */ - 
+from scipy import stats - 
 
 # Importing Dataset
 
